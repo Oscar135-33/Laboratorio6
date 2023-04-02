@@ -168,10 +168,12 @@ nav{
 
     .banner-text h1{
         font-size: 55px;
+        color: orange;
     }
 
     .banner-text p{
         padding: 30px 200px;
+        color: rgb(234, 0, 255);
     }
 }
 /*Parrafos*/
