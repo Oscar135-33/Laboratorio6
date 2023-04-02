@@ -117,3 +117,60 @@ nav{
     background-color: purple;
 }
 
+@media (min-width:768px){
+    .logo{
+        margin-left: 0px;
+    }
+
+    header{
+        height: 100vh;
+    }
+
+    nav{
+        height: 100px;
+        margin: 0px auto;
+    }
+
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a{
+        font-size: 18px;
+    }
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .banner-text{
+        padding-top: 250px;
+
+    }
+
+    .banner-text h1{
+        font-size: 55px;
+    }
+
+    .banner-text p{
+        padding: 30px 200px;
+    }
+}
